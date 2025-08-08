@@ -1,0 +1,173 @@
+@media screen and (max-width:1367px){
+    .suite-fill {
+        right: 0px;
+        transform: translateY(500%) scale(.5);
+    }
+    .hand-fill-left {
+        left: -40px;
+        transform: translateY(160%) scale(.5);
+    }
+}
+@media screen and (max-width:1025px){
+    .navbar-nav .nav-link{
+        font-size: 13px !important;
+    }    
+    .hero-heading {
+        font-size: 45px;
+    }
+    .hero-sub-heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .heading-hero-bottom {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .hero-icon-box >h2 {
+        font-size: 25px;
+    }
+    .heading {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .boxed-text-para {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .boxed-heading {
+        font-size: 25px;
+    }
+    .map-heading {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .map-sub-heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .circle-home {
+        top: 20px;
+        width: 80px;
+    }
+    .piggy-home {
+        bottom: 30px;
+        width: 50px;
+    }
+    .dollar-2-home {
+        top: 20px;
+        left: 20px;
+        width: 40px;
+    }
+    .dollar-2-0-home {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+    }
+    .suite-fill {
+        right: -35px;
+    }
+    .circle-faq {
+        width: 60px;
+    }
+}
+
+
+@media screen and (max-width:769px) {
+    .mobile-main-menu-button{
+        margin-top: 10px;
+        display: inline-block;
+    }    
+    .main-menu >li >a{
+        padding: 7px 10px !important;
+    }
+    .navbar-light .navbar-toggler {
+        color: #FFF;
+        border-color: #FFF;
+        background: #29abe2;
+    }
+    .form-bg-white-heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .form-label {
+        font-size: 20px;
+    }
+    .action-bg-style {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .width-100{
+        width: 100%;
+    } 
+    .width-75{
+        width: 75%;
+    } 
+    .form-price-count {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .dropdown-nav-drop{
+        right: -80px !important;
+    }
+    .heading {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .small-heading {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width:501px) {
+    .dropdown-nav-drop {
+        right: -65px !important;
+    }
+    .hand-fill-left, .suite-fill, .circle-faq, .dollar-2-home, .circle-home, .piggy-home
+    {
+        display: none;
+    }
+    .circle-home {
+        top: 20px;
+        width: 50px;
+    }
+    .hero-heading {
+        font-size: 30px;
+    }
+    .hero-sub-heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .mobile-margin
+    {
+        width: 100% !important;
+    }
+    .hero-img {
+        display: block;
+        position: relative;
+        margin-right: 0px;
+        width: 100%;
+    }    
+    .hero-bottom {
+        position: relative;
+        margin-top: 20px;
+    }
+    .border-top-right-with-radius-blue {
+        border-top-right-radius: 40px;
+    }
+    .round-2-side-img {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 20px;
+    }
+    .radius-2-side-section {
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+    .blog-detail-image img {
+        border-top-right-radius: 40px;
+    }
+    .blog-right-span-100-abso {
+        border-top-right-radius: 40px;
+    }
+}

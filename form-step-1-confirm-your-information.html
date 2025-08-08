@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERC :: Confirm your information</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+
+    <!-- Header Start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto main-menu">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Application</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Status</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                            
+                    </ul>
+                </div>
+                <a class="ml-auto menu-avatar" href="#">Account <img src="assets/img/avatar.png" class="menu-avatar" alt=""></a>
+
+                <div class="ml-auto">
+                    <a href="#" class="button-blue-border mr-3">Log in</a>
+                    <a href="#" class="button-blue">Start new application</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Form Section Start -->
+    <section class="pb-5">
+        <form action="form-step-2.html">
+            <div class="container">
+                <div class="px-5 mx-5">
+                    <div class="progress my-5">
+                        <div class="progress-bar" style="width: 94%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="form-bg px-3 py-5">
+                    <h1 class="form-bg-white-heading py-2 text-center">Confirm your information</h1>
+                    <div class="px-0 px-md-5">
+                        <p class="para text-center mt-4 mt-md-5">If you have multiple companies, input and qualify each company separately.</p>
+                        <div class="row px-0 px-lg-5 pt-4">
+                            <div class="col-md-12">
+                                <h3 class="mb-4"><b>Your Information</b></h3>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="firstname" class="form-label">First Name</label>
+                                    <input type="text" class="form-control text-box-form" id="firstname">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="lastname" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control text-box-form" id="lastname">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control text-box-form" id="email">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="phonenumber" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control text-box-form" id="phonenumber">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="jobtitle" class="form-label">Job title</label>
+                                    <input type="tel" class="form-control text-box-form" id="jobtitle">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <h3 class="mb-4 mt-5"><b>Company Information</b></h3>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="comname" class="form-label">Company Name</label>
+                                    <input type="text" class="form-control text-box-form" id="comname">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="address" class="form-label">Address</label>
+                                    <input type="text" class="form-control text-box-form" id="address">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="city" class="form-label">City</label>
+                                    <input type="text" class="form-control text-box-form" id="city">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="state" class="form-label">State</label>
+                                    <select name="state" id="state" class="form-control form-dropdown">
+                                        <option value="1">State Name</option>
+                                        <option value="1">Rajasthan</option>
+                                        <option value="1">Delhi</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="zipcode" class="form-label">Zip code</label>
+                                    <input type="number" class="form-control text-box-form" id="zipcode">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="inddustry" class="form-label">What industry are you in?</label>
+                                    <input type="text" class="form-control text-box-form" id="inddustry">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="link" class="para">Optional - Email of the individual that handles your payroll. (We will email them a copy of your document upload link)</label>
+                                    <input type="text" class="form-control text-box-form" id="link">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3">
+                                <div class="form-group position-relative">
+                                    <label for="specialist" class="form-label">Who introduced you to ERC Specialists?</label>
+                                    <input type="text" class="form-control text-box-form" id="specialist">
+                                </div>
+                            </div>
+                            <div class="col-md-12 mb-3 d-flex">
+                                <div class="mr-auto mb-auto pr-2" style="margin-top:0px">
+                                    <input type="checkbox" name="terms" class="" id="terms">
+                                </div>
+                                <label for="terms" class="mb-auto text-gray blog-excerpt">By checking you attest that the answers provided are accurate to the best of your knowledge and agree to our
+                                    <a href="#"><u>terms & conditions</u></a>.</label>
+                            </div>
+                            <div class="col-md-12 mb-3 d-flex">
+                                <div class="mr-auto mb-auto pr-2" style="margin-top:0px">
+                                    <input type="checkbox" name="terms" class="" id="terms">
+                                </div>
+                                <label for="terms" class="mb-auto text-gray blog-excerpt">By checking you agree to keep documentation on file that substantiates claims made in this application in the event of an audit from the IRS.</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-0 px-md-5 mx-0 mx-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mt-2 text-left">
+                                <a href="#" class="button-gray mt-4"><i class="fas fa-chevron-left mr-1"></i> Back</a>
+                            </div>
+                        </div>
+                        <div class="col-6 text-right">
+                            <div class="text-right mt-2">
+                                <input type="submit" value="Let’s get started" class="button-blue mt-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- Form Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="blue-bg py-2">
+            <div class="container">
+                <p class="para my-auto text-white text-center">
+                    Copyright © 2023 All rights reserved Privacy Policy
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+ 
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Owl JS -->
+    <script src="assets/js/owl/owl.carousel.min.js"></script>
+
+    <!-- Custom JS -->
+    <script>
+        
+    </script>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1239e8eb1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
